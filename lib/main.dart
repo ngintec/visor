@@ -29,11 +29,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => MaterialApp(
-        title: 'Live Object Detection TFLite',
+        title: 'VisorNgin',
         theme: ThemeData(
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
-        home: const HomeView(),
+        home: HomeView(),
       );
 }
